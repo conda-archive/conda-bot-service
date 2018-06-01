@@ -1,0 +1,9 @@
+name: conda-bot-service
+
+channels:
+  - conda-forge
+
+dependencies:
+  - pygithub
+  - python=3
+  - tornado
