@@ -25,7 +25,7 @@ GH_WEBHOOK_SECRET = os.environ.get('GITHUB_WEBHOOK_SECRET')
 # -----------------
 VALID_OWNERS = ('conda', 'conda-build', 'goanpeca')
 GITHUB_BOT = 'conda-bot'
-GITHUB_BOT_NAME = 'Conda Service Bot'
+GITHUB_BOT_NAME = 'Conda Contributor License Agreement'
 
 # CLA document urls
 # -----------------
@@ -37,7 +37,7 @@ CLA_DOCUMENT_URLS = {
         "https://raw.githubusercontent.com/goanpeca/conda-bot-service/"
         "master/.cla-signers",
 }
-CLA_INFO_URL = 'https://conda.io/'
+CLA_INFO_URL = 'https://github.com/conda/conda/blob/master/CONTRIBUTING.md#process'
 
 
 def get_cla_url(repo_full_name):
