@@ -36,7 +36,7 @@ def _get_cla_raw_data(cla_document_url):
     except Exception as error:
         pass
 
-    if error is None or r.status_code in [200]:
+    if error is None and r.status_code in [200]:
         data = r.text
 
     return data
