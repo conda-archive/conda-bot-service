@@ -37,7 +37,7 @@ CLA_DOCUMENT_URLS = {
         "https://raw.githubusercontent.com/goanpeca/conda-bot-service/"
         "master/.cla-signers",
 }
-CLA_INFO_URL = 'https://github.com/conda/conda/blob/master/CONTRIBUTING.md#process'
+CLA_INFO_URL = 'https://conda.io/docs/contributing.html#conda-contributor-license-agreement'
 
 
 def get_cla_url(repo_full_name):
